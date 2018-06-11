@@ -31,10 +31,10 @@ class linked_list:
             p=temp
             
 
-        t1=new_start
-        while(t1):
-            print(t1.data)
-            t1=t1.next
+        t2=new_start
+        while(t2!=None):
+            print(t2.data)
+            t2=t2.next
 
 
     def insert(self,new_data):
